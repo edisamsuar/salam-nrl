@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Mengatur layout vertikal */
+    justify-content: center;
+    align-items: center;
+    background-image: url('bg-002.jpeg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    font-size: 35px;
+    color: #e8f800;
+    stroke: rgb(0, 136, 255);
+    text-shadow: #000000;
+    box-shadow: #000000;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: antiquewhite;
+    outline-color: #000000;
+
+}
+/* Container untuk gambar pop-up */
+#popup-container {
+    text-align: center;
+    margin-bottom: 10px; /* Jarak antara gambar dan container teks */
+}
+
+#popup-image {
+    width: 300px; /* Sesuaikan ukuran gambar */
+    height: auto;
+    animation: popup 2s ease-in-out; /* Animasi pop-up */
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0); /* Mulai dari ukuran 0 */
+    }
+    50% {
+        transform: scale(1.2); /* Membesar sedikit */
+    }
+    100% {
+        transform: scale(1); /* Kembali ke ukuran normal */
+    }
+    50% {
+        transform: scale(1.2); /* Membesar sedikit */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Container untuk teks berjalan */
+.text-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486); /* Latar belakang semi-transparan */
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+#text-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+#next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: rgba(71, 71, 71, 0.322); /* Latar belakang semi-transparan */
+    color: #ffffff79;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+}
