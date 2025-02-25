@@ -14,7 +14,7 @@ function typeText() {
         if (charIndex < texts[currentIndex].length) {
             textContainer.textContent += texts[currentIndex].charAt(charIndex);
             charIndex++;
-            setTimeout(typeText, 50); // Kecepatan mengetik (ms)
+            setTimeout(typeText, 75); // Kecepatan mengetik (ms)
         } else {
             currentIndex++;
             charIndex = 0;
@@ -22,7 +22,7 @@ function typeText() {
                 setTimeout(() => {
                     textContainer.textContent = '';
                     typeText();
-                }, 1000); // Jeda antar teks (ms)
+                }, 1500); // Jeda antar teks (ms)
             } else {
                 nextButton.style.display = 'block'; // Tampilkan tombol setelah teks selesai
             }
