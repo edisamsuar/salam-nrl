@@ -2,10 +2,7 @@ const textContainer = document.getElementById('text-container');
 const nextButton = document.getElementById('next-button');
 
 const texts = [
-    "Semangat kerjanya Ya😊😊😊",
-    "Nurul Al Falah Adalah Tim Aku Yang Cantik Dan Baik Hati😊",
-    "Semoga Allah Membalas Semua Kebaikanmu😊😊😊",
-    "Semangat😊",
+    "Semangat Ya😊😊😊",
     "Klik tombol di bawah untuk melanjutkan."
 ];
 
