@@ -3,7 +3,7 @@ const nextButton = document.getElementById('next-button');
 
 const texts = [
     "Semangat Ya😊😊😊",
-    "Klik tombol di bawah untuk melanjutkan."
+    "Klik tombol di bawah untuk ini melanjutkan."
 ];
 
 let currentIndex = 0;
